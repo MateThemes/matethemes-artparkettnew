@@ -1,0 +1,9 @@
+name: "Parkett Stelzl"
+description: "New Parkett Stelzl theme based UIKit 3 Framework. Supports new Tailor Feature of OctoberCMS."
+author: "Gerald Schandl"
+homepage: "https://mate-themes.com"
+authorCode: MateThemes
+code: ParkettStelzlTheme
+database: '0'
+require:
+    - ""
