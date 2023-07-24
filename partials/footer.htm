@@ -1,0 +1,130 @@
+[global settings]
+handle = "Content\Settings"
+
+description = "Footer partial"
+==
+<footer>
+    <div class="uk-section-default uk-section">
+        <div class="uk-container uk-container-large">
+            {# First row - Showroom #}
+            <div class="uk-grid tm-grid-expand uk-grid-margin" data-uk-grid>
+                <div class="uk-width-1-4@m uk-flex-first">
+                    <div class="uk-margin uk-text-left@s uk-text-center">
+                        <img src="{{ 'assets/images/artparkett-logo.svg'|theme }}" width="194" height="40" class="el-image" alt="Union Dental" loading="lazy">
+                    </div>
+                </div>
+                <div class="uk-width-1-2 uk-width-1-3@s uk-width-1-4@m">
+                    <div class="uk-h5">Unsere Ausstellung</div>
+                    <div class="uk-panel uk-margin">Main Street 1234<br>
+                        5678 Anytown<br>
+                        Germany
+                    </div>
+                </div>
+                <div class="uk-width-1-2 uk-width-1-3@s uk-width-1-4@m">
+                    <div class="uk-h5">Öffnungszeiten Ausstellung</div>
+                    <div class="uk-panel uk-margin">Main Street 1234<br>
+                        5678 Anytown<br>
+                        Germany
+                    </div>
+                </div>
+                <div class="uk-width-1-2 uk-width-1-3@s uk-width-1-4@m">
+                    <div class="uk-h5">Kontakt</div>
+                    <div class="uk-panel uk-margin">Main Street 1234<br>
+                        5678 Anytown<br>
+                        Germany
+                    </div>
+                </div>
+            </div>
+            {# end First row - Showroom #}
+
+            {# Second row - Office #}
+            <div class="uk-grid tm-grid-expand uk-grid-margin" data-uk-grid>
+                <div class="uk-width-1-4@m uk-flex-first">
+                    <div class="uk-margin uk-text-left@s uk-text-center">
+                        {# leave blank #}
+                    </div>
+                </div>
+                <div class="uk-width-1-2 uk-width-1-3@s uk-width-1-4@m">
+                    <div class="uk-h5">Unser Büro</div>
+                    <div class="uk-panel uk-margin">Main Street 1234<br>
+                        5678 Anytown<br>
+                        Germany
+                    </div>
+                </div>
+                <div class="uk-width-1-2 uk-width-1-3@s uk-width-1-4@m">
+                    <div class="uk-h5">Öffnungszeiten Büro</div>
+                    <div class="uk-panel uk-margin">Main Street 1234<br>
+                        5678 Anytown<br>
+                        Germany
+                    </div>
+                </div>
+                <div class="uk-width-1-2 uk-width-1-3@s uk-width-1-4@m">
+                    <div class="uk-h5">Kontakt</div>
+                    <div class="uk-panel uk-margin">Main Street 1234<br>
+                        5678 Anytown<br>
+                        Germany
+                    </div>
+                </div>
+            </div>
+            {# end Second row - Office #}
+
+            {# Third row - important links #}
+            <div class="uk-grid tm-grid-expand uk-grid-margin" data-uk-grid>
+                <div class="uk-width-1-4@m uk-flex-first">
+                    <div class="uk-margin uk-text-left@s uk-text-center">
+                        {# leave blank #}
+                    </div>
+                </div>
+                <div class="uk-width-1-2 uk-width-1-3@s uk-width-1-4@m">
+                    <div class="uk-h5">Information</div>
+                    <ul class="uk-list uk-list-collapse">
+                        <li class="el-item">
+                            <div class="el-content uk-panel">
+                                <a href="/joomla/themes/union-dental/services" class="el-link uk-link-text uk-margin-remove-last-child">Services</a>
+                            </div>
+                        </li>
+                        <li class="el-item">
+                            <div class="el-content uk-panel">
+                                <a href="/joomla/themes/union-dental/doctors" class="el-link uk-link-text uk-margin-remove-last-child">Doctors</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="uk-width-1-2 uk-width-1-3@s uk-width-1-4@m">
+                    <div class="uk-h5">Öffnungszeiten</div>
+                    <div class="uk-panel uk-margin">Main Street 1234<br>
+                        5678 Anytown<br>
+                        Germany
+                    </div>
+                </div>
+                <div class="uk-width-1-2 uk-width-1-3@s uk-width-1-4@m">
+                    <div class="uk-h5">Follow us</div>
+                    <div class="uk-child-width-auto uk-flex-inline uk-grid-small" data-uk-grid>
+                        <div>
+                            <a class="el-link uk-icon-link" href="https://facebook.com/yootheme" rel="noreferrer">
+                                <span data-uk-icon="icon: facebook;"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {# end Third row - important links #}
+        </div>
+    </div>
+    <div class="uk-section-default uk-section uk-section-small">
+        <div class="uk-container uk-container-large">
+            <div class="uk-grid tm-grid-expand uk-grid-small uk-margin-small" data-uk-grid>
+                <div class="uk-width-1-3@s uk-width-1-4@m">
+                    <div class="uk-panel uk-margin-remove-vertical uk-text-left@s uk-text-center">
+                        <p class="uk-text-small">
+                            <a href="#" class="uk-link-text uk-margin-small-right">Imprint</a>|<a href="#" class="uk-link-text uk-margin-small-left">Privacy Policy</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="uk-width-2-3@s uk-width-3-4@m uk-visible@m">
+                    <div class="uk-panel uk-text-small uk-text-muted uk-text-right@s uk-text-center uk-visible@m">© {{ 'now'|date('Y') }} {{ settings.website_name }}. All rights reserved.<br class="uk-hidden@s"> Powered by <a href="https://mate-themes.com/" rel="noreferrer" target="_blank">MateThemes</a>.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

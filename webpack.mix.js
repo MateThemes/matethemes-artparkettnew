@@ -8,4 +8,4 @@ mix.sass('assets/src/scss/styles.scss', 'assets/dist/css/styles.css', {
     }
 });
 // Merge and compile multiple scripts to dist/app.js
-mix.minify(['assets/src/js/uikit.min.js', 'assets/src/js/uikit-icons.min.js'], 'assets/dist/js/app.js');
+mix.minify(['assets/src/js/uikit.min.js', 'assets/src/js/uikit-icons.min.js', 'assets/src/js/theme.js'], 'assets/dist/js/app.js');
